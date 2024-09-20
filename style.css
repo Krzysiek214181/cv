@@ -31,9 +31,10 @@ body{
     color: #fff; 
     text-align: center; 
     text-decoration: none; 
-    font-size: 1vw; 
+    font-size: 18px; 
     cursor: pointer; 
     float: left; 
+    text-wrap: nowrap;
 } 
 
 .button-group{
@@ -45,7 +46,9 @@ body{
     display: flex;
     align-items: right;
     justify-content: right;
-    padding-right: 1%;            ;
+    padding-right: 1%;   ;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .button:hover{
@@ -80,3 +83,18 @@ body{
     font-size: 3vw;
 }
 
+div.scroll {
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #e7f0e9;
+    width: 80%;
+    max-width: 600px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    line-height: 1.6;
+}
