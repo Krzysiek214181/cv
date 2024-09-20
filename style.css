@@ -16,10 +16,11 @@
     margin-right: auto;
     margin-left: auto;
     max-width: 80%;
+    font-size: 18px;
 }
 
-.button-group .button {
-    padding:10px 20px; 
+.button {
+    padding:12px 20px; 
     border: 1px solid black;
     border-radius: 10px; 
     background-color: #303030; 
@@ -31,16 +32,22 @@
     float: left; 
 } 
 
-.sticky{
+.button-group{
     position: sticky;
     height: 50px;
     padding-top: 10px;
+    padding-bottom: 10px;
     top: 0px;
     background-color: #303030;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    border-radius: 15px; 
+    padding-right: 1%;            ;
 }
 
 .button:hover{
-    background-color: #404040;
+    background-color: #505050;
 }
 
 .container{
@@ -48,18 +55,26 @@
     padding-bottom: 5px;
     background-color: #303030;
     color: white;
+    border-radius: 15px;
 
 }
 
 .photo{
     display: block;
     margin-left: auto;
-    margin-right: 10px;
-    width: 60%;
-    height: auto;
+    margin-right: 1%;
+    width: 50%;
+    height: 50%;
+    border-radius: 4%;
 
 }
 
 .header{
-    font-size:10px ;
+    font-size:6vw ;
+    margin-left: 7%;
 }
+
+.title{
+    font-size: 3vw;
+}
+
