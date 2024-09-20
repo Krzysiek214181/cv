@@ -1,0 +1,44 @@
+.center
+{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+}
+
+.white
+{
+    color: white;
+}
+
+.max_width
+{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 80%;
+}
+
+.button-group .button {
+    padding:10px 20px; 
+    border: 1px solid black;
+    border-radius: 10px; 
+    background-color: #303030; 
+    color: #fff; 
+    text-align: center; 
+    text-decoration: none; 
+    font-size: 16px; 
+    cursor: pointer; 
+    float: left; 
+} 
+
+.sticky{
+    position: sticky;
+    height: 50px;
+    padding-top: 10px;
+    top: 0px;
+    background-color: #303030;
+}
+
+.button:hover{
+    background-color: #404040;
+}
