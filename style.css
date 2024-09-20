@@ -34,7 +34,7 @@ body{
     font-size: 18px; 
     cursor: pointer; 
     float: left; 
-    text-wrap: nowrapc;
+    text-wrap: nowrap;
 } 
 
 .button-group{
